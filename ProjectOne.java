@@ -16,7 +16,7 @@ public class ProjectOne {
                 System.out.println("Pamella Barbosa Viana\n2792205");
                 break;
                 
-            } else if(option == 2){ 
+            } if(option == 2){ 
                 System.out.println("Enter equation\nNote equation must be entered n1 op n2");
                 System.out.println("for example 6 plus 4 would be '6 + 4' ");
                 Scanner equation = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class ProjectOne {
                                 
                 if (op == '+') {
                     System.out.printf("%d + %d = %d\n",num1,num2, num1+num2);
-                } else if (op == '-') {
+                }else if (op == '-') {
                     System.out.printf("%d - %d = %d\n",num1,num2, num1-num2);
                 }else if (op == '*' || op == 'x') {
                     System.out.printf("%d * %d = %d\n",num1,num2, num1*num2);
@@ -46,7 +46,7 @@ public class ProjectOne {
                 
                 break;
                 
-            } else if(option == 3){
+            } if(option == 3){
                 System.out.println("Enter equation\nNote equation must be entered n1 op n2");
                 System.out.println("for example 6 plus 4 would be '6 + 4' ");
                 Scanner equation = new Scanner(System.in);
@@ -74,7 +74,7 @@ public class ProjectOne {
                 break;
             
                 
-            } else if(option == 0){ 
+            } if(option == 0){ 
                 break;
                 
             } else {
